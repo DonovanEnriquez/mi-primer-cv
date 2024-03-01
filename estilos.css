@@ -1,0 +1,90 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Comic Sans Ms;
+    font-size:large ;
+    background-color: rgb(205, 185, 185);
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .left-column {
+    flex: 1;
+    background-color: rgb(74, 74, 74);
+    color: white;
+    padding-bottom: calc(100vh - 150px); 
+    overflow-y: auto; 
+  }
+  
+  .right-column {
+    flex: 2;
+    margin-top: 10%;
+  }
+  
+  .profile {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .image-profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+ hr {
+    border: 0;
+    border-top: 3px solid #ccc;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-color: rgb(0, 0, 0);
+    border-radius: 20px;
+  }
+  
+
+h2{
+    text-align: center;
+}
+
+.profile-description {
+    text-align: center;
+}
+
+p{
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  ul li:before {
+    content: "\2022";
+    margin-right: 5px;
+  }
+
+
+.nombre{
+    text-align: center;
+}
+
+.instagram {
+    display: block;
+}
+
+.redes-sociales{
+    text-align: center;
+    display: block;
+}
